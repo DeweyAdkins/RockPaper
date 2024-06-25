@@ -1,0 +1,83 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #667BC6;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.player, .bot {
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 50%;
+}
+
+.player {
+    background-color: #FDFFD2;
+}
+
+.bot {
+    background-color: #FFB4C2;
+}
+
+.hands {
+    display: flex;
+    justify-content: space-between;
+}
+
+button {
+    font-size: 24px;
+    padding: 10px;
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.hand {
+    background-color: #fff;
+}
+
+.rock {
+    background-color: #ff9999;
+}
+
+.paper {
+    background-color: #99ff99;
+}
+
+.scissors {
+    background-color: #9999ff;
+}
+
+.selected {
+    background-color: #666;
+    color: #fff;
+}
+
+input[type="text"] {
+    padding: 10px;
+    margin: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+button#start-game {
+    background-color: #4CAF50;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+button#start-game:hover {
+    background-color: #3e8e41;
+}
